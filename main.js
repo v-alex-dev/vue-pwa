@@ -1,3 +1,18 @@
+/**
+ * Fetches voyage data from the API and updates the DOM elements with the retrieved information.
+ * 
+ * This function makes an HTTP request to retrieve voyage data, extracts the first voyage item,
+ * and populates the corresponding DOM elements with the voyage label, description, and price.
+ * 
+ * @async
+ * @function fetchVoyageData
+ * @returns {Promise<void>} A promise that resolves when the data has been fetched and DOM updated
+ * @throws {Error} Logs error to console if the fetch operation or DOM manipulation fails
+ * 
+ * @example
+ * // Call the function to fetch and display voyage data
+ * await fetchVoyageData();
+ */
 const fetchVoyageData = async () => {
   try {
     const rep = await fetch(
