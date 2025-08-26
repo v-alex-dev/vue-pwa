@@ -5,6 +5,8 @@
   "version": "1.0.0",
   "display": "standalone",
   "description": "Une application web progressive construite avec Vue.js",
+  "theme_color": "#333",
+  "background_color": "#333",
   "icons": [
     {
       "src": "icons/favicon-16x16.png",
