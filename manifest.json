@@ -28,5 +28,17 @@
       "sizes": "256x256",
       "type": "image/png"
     }
+  ],
+  "screenshots": [
+    {
+      "src": "screenshots/pc-screen.png",
+      "sizes": "1252x877",
+      "type": "image/png"
+    },
+    {
+      "src": "screenshots/smartphone-screen.png",
+      "sizes": "311x731",
+      "type": "image/png"
+    }
   ]
 }
