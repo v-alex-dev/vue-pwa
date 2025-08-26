@@ -1,0 +1,30 @@
+{
+  "name": "Vue PWA",
+  "short_name": "VuePWA",
+  "start_url": "/index.html",
+  "version": "1.0.0",
+  "display": "standalone",
+  "description": "Une application web progressive construite avec Vue.js",
+  "icons": [
+    {
+      "src": "icons/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/favicon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/favicon-256x256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    }
+  ]
+}
